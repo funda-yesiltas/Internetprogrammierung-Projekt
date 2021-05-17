@@ -1,19 +1,15 @@
-![GitHub Classroom Workflow](https://github.com/hft-stuttgart-ipr/hft-asgmt-js-async-funda-yesiltas/workflows/GitHub%20Classroom%20Workflow/badge.svg)
+Vorlage-Projekt
 
 
-# hft-asgmt-js-async
+# Internetprogrammierung-Projekt
 
 ## TODO
-  - [x] Index.ejs should display the form to add new shouts and also the table of all shouts
-  - [x] Create a route, for `GET /api/shouts` to get a JSON response with all shouts
-  - [x] Create a route, for `POST /api/shouts` to receive JSON and add a new shout
-  - [x] The homepage must not reload!
+  - [] 
+  - [] 
+  - [] 
+  - [] 
+  - []
+  - []
+  - [] Prüfung 22.Juni 2021 17 Uhr 
 
-The Json must look like:
-
-```js
-{
-  username: 'some string',
-  message: 'another string',
-}
-```
+-> Hadeel Dahdal, Svenja Hecht, Sarah Hirschmann, Funda Yesiltas
