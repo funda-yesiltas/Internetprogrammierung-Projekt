@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <% include ../partials/head %>
+
+</head>
+
+<body>
+    <!--navbar-->
+    <%- include('../partials/sidebar', { active: 'addRecipes' }) %>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-8">
+                <h1 class="hft-sb-title display-5">Kochbuch hinzufügen</h1>
+            </div>
+        </div>
+
+        <style>
+            .tabbox {
+                width: 200px;
+            }
+        </style>
+        <style>
+            .label {
+                display: block;
+                width: 200px;
+            
+            }
+        </style>
+        <!--vertical-align: middle-->
+
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-8">
+                <form id="book-form" method="post" action="/add-entry">
+                    <div class="form-group">
+                        <label for="booktitel-input" class="label" widh="200px">Titel</label>
+                        <input type="text" name="booktitel-input" class="form-control" id="booktitel-input"
+                            placeholder="Oma's Rezepte"></tab>
+                    </div>
+                    <div class="form-group">
+                        <label for="kategorie" class="label">Kategorie</label>
+                        <form id="kategorie">
+                            <input type="checkbox" id="hauptgericht">
+                            <label for="hauptgericht">Hauptgeschichte</label><br>
+                            <input type="checkbox" id="snacks">
+                            <label for="snacks">Snacks</label><br>
+                            <input type="checkbox" id="suesses">
+                            <label for="suesses">Süsses</label><br>
+                            <input type="checkbox" id="vegetarisch">
+                            <label for="vegetarisch">Vegeratisch</label><br>
+                            <input type="checkbox" id="gemischt">
+                            <label for="gemischt">Gemischt</label><br>
+                        </form>
+                    </div>
+                    
+                    <button id="books-submit" type="submit" class="btn btn-primary">Speichern</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+
+</html>

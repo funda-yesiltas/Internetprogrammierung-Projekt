@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>IPR Project</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  </head>
+
+  <body>
+    
+    <!--home page & sidebar-->
+    <section id="banner">
+      <div class="sidebar2">
+        <ul>
+          <li><a href="#">view my Recipes</a>
+            <div class="menu-1">
+              <ul>
+                <li><a href="#byBook">by book</a></li>
+                <li><a href="#byOccasion">by occasion</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#manage">manage Recipes</a></li>
+          <li><a href="#">look for other Recipes</a>
+            <div class="menu-1">
+              <ul>
+                <li><a href="#byBook">by book</a></li>
+                <li><a href="#byOccasion">by occasion</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div> 
+        <div class="banner-text">
+          <h1>My Recipes</h1>
+          <p>Eat better feel better</p>
+          <div class="banner-btn">
+            <a href="login.html">Login</a>
+          </div>
+        </div>
+    </section>
+
+    <!--By Book-->
+    <section id="byBook">
+      <div class="book-text">
+        <p>FIND RECIPES BY BOOK</p>
+      </div>
+      <div class="book-box">
+        <div class="books">
+          <h1>CakeBook</h1>
+          <div class="CakeBook-btn">
+            <a href="">Cupcake</a>
+            <a href="">Apple cake</a>
+            <a href="">cheesecake</a>
+          </div>
+          <h1>VegetarianBook</h1>
+          <div class="CakeBook-btn">
+            <a href="#">Cupcake</a>
+            <a href="#">Veggie Burger</a>
+          </div>
+          <h1>MeatBook</h1>
+          <div class="CakeBook-btn">
+            <a href="#">Meatball</a>
+          </div>
+          <h1>ChickenBook</h1>
+          <div class="CakeBook-btn">
+            <a href="#">Chick Filet</a>
+            <a href="#">Nugget</a>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <!--By Occasion-->
+    <section id="byOccasion">
+      <div class="Occasion-text">
+        <p>FIND RECIPES BY OCCASION</p>
+      </div>
+      <div class="Occasion-box">
+        <div class="Occasions">
+          <h1>Breakfast</h1>
+          <div class="Breakfast-btn">
+            <a href="#">Aloo Paratha</a>
+            <a href="#">Bread pudding</a>
+          </div>
+          <h1>Dinner</h1>
+          <div class="Dinner-btn">
+            <a href="#">Beefy mac and cheese</a>
+          </div>
+          <h1>Lunch</h1>
+          <div class="Lunch-btn">
+            <a href="#">Spicy chicken wrap</a>
+            <a href="#">broccoli cauliflower salad</a>
+          </div>
+          <h1>Christmas</h1>
+          <div class="Christmas-btn">
+            <a href="#">Pandoro</a>
+            <a href="#">British variations</a>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <!--manage Recipes-->
+    <section id="manage">
+      <div class="manage-text">
+        <p>MANAGE RECIPES</p>
+        <div class="manage-box">
+          <div class="manageRecipes">
+            <div class="manage-btn">
+              <a href="add.html">Add Recipes</a>
+              <a href="change.html">Change Recipes</a>
+              <a>Move Recipes</a>
+              <a>Remove Recipes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<script type="text/javascript">
+
+/*--function clickEvent() {
+  alert('hallo!');
+};--*/
+  // All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>
+
+  </body>
+</html>
+message.txt
+5 kB
